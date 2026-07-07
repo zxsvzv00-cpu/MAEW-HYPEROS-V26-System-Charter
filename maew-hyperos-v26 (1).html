@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAEW-HYPEROS-V26 | Ultimate Enterprise AI OS</title>
+<style>
+:root{--bg:#0a0a0f;--panel:#141420;--text:#e6e6f0;--muted:#9aa0b2;--accent:#7c3aed;--accent2:#06b6d4;--border:#232334}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans Thai',sans-serif;background:radial-gradient(1200px 800px at 80% -10%, #1e1b4b55, transparent),var(--bg);color:var(--text);line-height:1.7}
+header{position:sticky;top:0;backdrop-filter:blur(12px);background:rgba(10,10,15,.7);border-bottom:1px solid var(--border);z-index:50}
+.nav{max-width:1200px;margin:auto;padding:1rem 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;letter-spacing:.5px;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;font-size:1.2rem}
+.nav a{color:var(--muted);text-decoration:none;margin-left:1.5rem;font-size:.95rem}
+.nav a:hover{color:#fff}
+.hero{max-width:1200px;margin:auto;padding:5rem 5% 3rem;display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;align-items:center}
+.hero h1{font-size:clamp(2.2rem,5vw,3.5rem);line-height:1.1;margin-bottom:1rem}
+.badge{display:inline-block;padding:.3rem .7rem;border:1px solid var(--border);border-radius:999px;color:var(--muted);font-size:.8rem;margin-bottom:1rem}
+.cta{display:flex;gap:.8rem;margin-top:1.5rem;flex-wrap:wrap}
+.btn{padding:.85rem 1.3rem;border-radius:12px;border:1px solid var(--border);background:var(--panel);color:#fff;text-decoration:none;font-weight:600;transition:.2s}
+.btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent2));border:none}
+.btn:hover{transform:translateY(-2px)}
+.panel{background:linear-gradient(180deg,#12121d,#0e0e17);border:1px solid var(--border);border-radius:20px;padding:1.5rem}
+.grid{max-width:1200px;margin:auto;padding:2rem 5%;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.2rem}
+.content{max-width:900px;margin:auto;padding:2rem 5% 5rem}
+.content h1,.content h2,.content h3{margin:2rem 0 1rem;color:#fff}
+.content h2{border-left:3px solid var(--accent);padding-left:.7rem}
+.content table{width:100%;border-collapse:collapse;margin:1.5rem 0;background:var(--panel);border-radius:12px;overflow:hidden}
+.content th,.content td{padding:.8rem 1rem;border-bottom:1px solid var(--border);text-align:left}
+.content th{background:#1a1a2a;color:var(--accent2)}
+.content code{background:#1a1a2a;padding:.2rem .4rem;border-radius:6px;font-family:ui-monospace, SFMono-Regular, Menlo, monospace;font-size:.9em}
+.content pre{background:#0f0f1a;padding:1rem;border-radius:12px;overflow:auto;border:1px solid var(--border);margin:1rem 0}
+.content pre code{background:none;padding:0}
+footer{border-top:1px solid var(--border);color:var(--muted);text-align:center;padding:2.5rem 5%;margin-top:3rem}
+@media(max-width:900px){.hero{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">MAEW-HYPEROS-V26</div>
+    <nav>
+      <a href="#overview">ภาพรวม</a>
+      <a href="#architecture">สถาปัตยกรรม</a>
+      <a href="#stack">Stack</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <span class="badge">เวอร์ชัน 26.0 • Production Foundation</span>
+    <h1>Ultimate Enterprise AI Operating System</h1>
+    <p style="color:var(--muted);max-width:600px">ระบบปฏิบัติการองค์กรอัตโนมัติที่หลอมรวมสติปัญญา (Cognitive), ระบบปฏิบัติการ (OS) และโครงสร้างพื้นฐานระดับอารยธรรม (Civilization Layer) เข้าด้วยกัน</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="#architecture">ดูสถาปัตยกรรม L0-L25</a>
+      <a class="btn" href="#stack">ดู Technology Stack</a>
+    </div>
+  </div>
+  <div class="panel">
+    <h3 style="margin-bottom:.8rem;color:var(--accent2)">Monorepo Schema</h3>
+    <pre style="margin:0;background:none;border:none;padding:0"><code>maew-hyperos-v26/
+├── apps/ services/ agents/
+├── packages/ infrastructure/
+├── models/ plugins/ prompts/
+└── tools/ docs/ .github/</code></pre>
+  </div>
+</section>
+
+<div class="grid">
+  <div class="panel"><h3>25 Layers</h3><p style="color:var(--muted)">L0-L5 Foundation, L6-L11 Intelligence, L12-L15 Business, L16-L25 Civilization</p></div>
+  <div class="panel"><h3>Zero Trust</h3><p style="color:var(--muted)">Security by default, Identity & Governance</p></div>
+  <div class="panel"><h3>Explainable AI</h3><p style="color:var(--muted)">XAI, Observability, Trust Engine</p></div>
+</div>
+
+<main id="overview" class="content">
+<h1>🌌 MAEW-HYPEROS-V26: Ultimate Enterprise AI Operating System</h1>
+<h2>Master Documentation &amp; Architecture Charter</h2>
+<p><strong>เวอร์ชัน:</strong> 26.0 (Production Foundation)
+<strong>วิสัยทัศน์:</strong> การเป็นระบบปฏิบัติการองค์กรอัตโนมัติ (Autonomous Enterprise OS) ที่หลอมรวมสติปัญญา (Cognitive), ระบบปฏิบัติการ (OS), และโครงสร้างพื้นฐานระดับอารยธรรม (Civilization Layer) เข้าด้วยกันอย่างสมบูรณ์</p>
+<h2>1. ชั้นสถาปัตยกรรม (Architecture Layers: L0-L25)</h2>
+<p>ระบบถูกออกแบบโดยแบ่งเป็น 25 เลเยอร์ เพื่อการขยายตัวและแยกส่วนการทำงาน (Decoupling) อย่างชัดเจน:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Level</th>
+<th style="text-align: left;">Domain</th>
+<th style="text-align: left;">Focus Area</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>L0-L5</strong></td>
+<td style="text-align: left;">Foundation</td>
+<td style="text-align: left;">Hardware, Edge, Cloud, K8s, API Gateway, Identity &amp; Security</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>L6-L11</strong></td>
+<td style="text-align: left;">Intelligence</td>
+<td style="text-align: left;">Data Platform, Memory, Knowledge Graph, Router, Runtime, Workflow</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>L12-L15</strong></td>
+<td style="text-align: left;">Business</td>
+<td style="text-align: left;">Business Services, Enterprise Agents, Autonomous Org, Executive Intel</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>L16-L25</strong></td>
+<td style="text-align: left;">Civilization</td>
+<td style="text-align: left;">Observability, Governance, Trust Engine, XAI, Marketplace, SDK, Spatial, Network, Civilization Layer</td>
+</tr>
+</tbody>
+</table>
+<h2>2. โครงสร้างระดับองค์กร (Monorepo Schema)</h2>
+<p>โครงสร้างนี้ถูกจัดระเบียบเพื่อให้รองรับการจัดการแบบ Micro-Monorepo:</p>
+<pre><code>maew-hyperos-v26/
+├── apps/               # Frontend &amp; Applications
+├── services/           # Backend Services
+├── agents/             # Domain Agents
+├── packages/           # Shared Code
+├── infrastructure/     # IaC
+├── models/             # Local Models &amp; Datasets
+├── plugins/            # Ecosystem Extensions
+├── prompts/            # Prompt Engineering
+├── tools/              # Dev Tools &amp; CLIs
+├── examples/           # Use-case Examples
+├── tests/              # System-wide Tests
+├── scripts/            # Automation Scripts
+├── docs/               # System Documentation
+└── .github/            # CI/CD Workflows
+</code></pre>
+<h2>3. Technology Stack</h2>
+<ul>
+<li><strong>Frontend:</strong> Next.js, React, Tailwind CSS, TypeScript</li>
+<li><strong>Backend:</strong> FastAPI, Go, Node.js</li>
+<li><strong>AI/LLM:</strong> OpenAI, Anthropic, Ollama, LangGraph, LangChain</li>
+<li><strong>Database:</strong> PostgreSQL (pgvector), Redis, Neo4j, ClickHouse</li>
+<li><strong>Infrastructure:</strong> Docker, Kubernetes, Terraform, ArgoCD, Istio</li>
+<li><strong>Observability:</strong> Grafana, Prometheus, Jaeger, OpenTelemetry</li>
+</ul>
+<h2>4. Roadmap</h2>
+<ul>
+<li><strong>V26.0:</strong> Foundation Monorepo</li>
+<li><strong>V26.1-26.5:</strong> Enterprise Runtime, Memory, Reasoning</li>
+<li><strong>V26.6-26.9:</strong> AI Marketplace, Voice/Vision, Digital Twin</li>
+<li><strong>V27:</strong> Civilization OS</li>
+</ul>
+<h2>5. Governance &amp; Principles</h2>
+<ul>
+<li>Zero Trust Security</li>
+<li>Explainable AI (XAI)</li>
+<li>GitOps Ready</li>
+<li>Observability by Default</li>
+</ul>
+</main>
+
+<footer>
+  © 2026 MAEW-HYPEROS • Built in Non Sung, Nakhon Ratchasima • GitOps Ready
+</footer>
+</body>
+</html>
